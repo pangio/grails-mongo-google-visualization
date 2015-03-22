@@ -17,4 +17,12 @@ environments {
             }
         }
     }
+    test {
+        grails {
+            mongo {
+                createDrop      = "database"
+                databaseName    = "company"
+            }
+        }
+    }
 }
